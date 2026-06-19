@@ -2666,3 +2666,6 @@ firebase/app/dist/esm/index.esm.js:
 #firebase-error, .firebase-error, [id*="firebase-error"] {
     display: none !important;
 }
+#login-btn, .login-button, button:contains("Login") {
+    display: none !important;
+}
