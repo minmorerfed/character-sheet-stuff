@@ -5,7 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>Character Sheet. App.</title>
+        <title>
+            <script>
+  const originalAlert = window.alert;
+  window.alert = function(msg) {
+    if (msg && msg.includes("Firebase config")) {
+      console.log("Muted background warning:", msg);
+      return;
+    }
+    originalAlert(msg);
+  };
+</script>
+            Character Sheet. App.</title>
         <meta name="application-name" content="Character Sheet. App.">
         <meta name="description" content="Online character sheet for tabletop role playing games.">
 
