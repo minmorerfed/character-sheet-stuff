@@ -7,7 +7,7 @@
   flex-direction: column; 
   gap: 15px; 
   z-index: -1;
-  width: 280px; /* Adjust this to change how wide the boxes are */
+  width: 245px; /* Adjust this to change how wide the boxes are */
 }
 
 .left-side {
